@@ -1,0 +1,166 @@
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    margin: 47px 0px 0px 42px;
+}
+
+.link-header {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 32px;
+}
+
+.link-header-login {
+    color: #17233D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+    cursor: pointer;
+    letter-spacing: 1px;
+    margin-left: 32px;
+    margin-right: 32px;
+}
+
+.button-header {
+    border-radius: 6px;
+    border: 1px solid #4CB538;
+    background: #6FBF44;
+    color: #FFF;
+    width: 124px;
+    height: 51px;
+    cursor: pointer;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.imagem-logo {
+    width: 533.834px;
+    height: 466.9px;
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 115px;
+    position: absolute;
+}
+
+section {
+    display: inline-block;
+    position: absolute;
+    margin-left: 790px;
+    margin-top: 200px;
+}
+
+h1 {
+    color: #161A49;
+    font-size: 62px;
+    font-weight: 700;
+    line-height: 82px;
+    letter-spacing: 0.596px;
+    margin-bottom: 47px;
+}
+
+p {
+    color: #4B505A;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 33px;
+    letter-spacing: 0.5px;
+    margin-bottom: 57px;
+}
+
+a {
+    color: #6FBF44;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+}
+
+.link-learn {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 390px) {
+    header {
+        margin: 10px 0px 0px 47px;
+    }
+
+    .link-header {
+        display: none;
+    }
+
+    .link-header-login {
+        display: none;
+    }
+
+    .button-header {
+        position: absolute;
+        margin: 0px 0px 0px 227px;
+        width: 91px;
+        height: 31px;
+        font-size: 12px;
+    }
+
+    .button-header:hover {
+        opacity: 0.8;
+    }
+
+    .button-header:active {
+        opacity: 0.4;
+    }
+
+    h1 {
+        width: 278px;
+        text-align: center;
+        font-size: 30px;
+        line-height: 30px;
+        margin-left: 14px;
+        margin-bottom: 22px;
+    }
+
+    p {
+        width: 304px;
+        text-align: center;
+        font-size: 18px;
+        line-height: 33px;
+        margin-bottom: 31px;
+    }
+
+    .imagem-logo {
+        width: 279.921px;
+        height: 268.932px;
+        position: relative;
+        margin-left: 49px;
+        margin-top: 390px;
+    }
+
+    section {
+        margin-left: -295px;
+        margin-top: 63px;
+    }
+
+    .link-learn  {
+        text-align: center;
+        margin-left: 95px;
+    }
+
+    .link-learn:hover {
+        opacity: 0.8;
+    }
+
+    .link-learn:active {
+        opacity: 0.4;
+    }
+}
